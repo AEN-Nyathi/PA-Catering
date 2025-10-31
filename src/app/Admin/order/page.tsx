@@ -18,7 +18,7 @@ export default function OrderAdmin() {
             try {
                 const fetchedOrders = await getAllOrdersFromFirestore();
                 setOrders(fetchedOrders);
-            } catch (err) {
+            } catch (_err) {
                 setError('Failed to fetch orders.');
             } finally {
                 setLoading(false);
@@ -45,7 +45,7 @@ export default function OrderAdmin() {
         try {
             await updateOrderStatusInFirestore(orderId, newStatus);
             setNotification({ variant: 'success', message: 'Order status updated successfully' });
-        } catch (error) {
+        } catch (_error) {
             setOrders(originalOrders);
             setNotification({ variant: 'danger', message: 'Failed to update order status' });
         }

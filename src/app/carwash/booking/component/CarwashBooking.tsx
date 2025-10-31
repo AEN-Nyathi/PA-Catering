@@ -25,41 +25,6 @@ const Alert = ({ message, type }: { message: string; type: 'success' | 'error' }
 	</div>
 );
 
-interface BookingDetailProps {
-	label: string;
-	value?: string;
-	children?: React.ReactNode;
-}
-
-const BookingDetail: React.FC<BookingDetailProps> = ({ label, value, children }) => (
-	<div>
-		<p className='text-sm font-semibold text-white/60'>{label}</p>
-		{value && <p className='text-lg text-white'>{value}</p>}
-		{children}
-	</div>
-);
-
-interface StatusBadgeProps {
-	status: 'pending' | 'confirmed' | 'completed' | 'cancelled';
-}
-
-const StatusBadge: React.FC<StatusBadgeProps> = ({ status }) => {
-	const statusStyles = {
-		pending: 'bg-red-500/20 text-red-300',
-		confirmed: 'bg-white/20 text-white',
-		completed: 'bg-green-500/20 text-green-300',
-		cancelled: 'bg-red-500/20 text-red-300',
-	};
-	return (
-		<span
-			className={`px-3 py-1 text-sm font-medium rounded-full ${
-				statusStyles[status] || 'bg-gray-500/20 text-gray-300'
-			}`}>
-			{status}
-		</span>
-	);
-};
-
 const CarwashBookingComponent: React.FC<{ booking: CarWashBooking }> = ({ booking }) => {
 	const [resolvedBooking, setResolvedBooking] = useState<CarWashBooking | null>(null);
 	const [isEditing, setIsEditing] = useState(false);

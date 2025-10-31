@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { DefaultSeo } from 'next-seo';
 import { SEO } from './seo.config';
 import './globals.css';
@@ -11,15 +11,18 @@ import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: {
-    default: SEO.defaultTitle,
-    template: `%s | ${SEO.titleTemplate.split('|')[1].trim()}`,
+    default: SEO.defaultTitle as string,
+    template: SEO.titleTemplate ? `%s | ${SEO.titleTemplate.split('|')[1].trim()}` : '%s',
   },
   description: SEO.description,
   openGraph: {
-    ...SEO.openGraph,
+    type: 'website',
+    locale: 'en_IE',
+    url: 'https://yourdomain.com',
+    siteName: 'P.A Catering',
     images: [
       {
-        url: '/images/og-image.jpg', // Replace with your actual OG image
+        url: '/images/og-image.jpg', 
         width: 1200,
         height: 630,
         alt: 'P.A Catering',
@@ -27,8 +30,6 @@ export const metadata: Metadata = {
     ],
   },
   twitter: SEO.twitter,
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#ef4444',
   metadataBase: new URL('https://yourdomain.com'),
   alternates: {
     canonical: '/',
@@ -44,6 +45,12 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#ef4444',
 };
 
 export default function RootLayout({

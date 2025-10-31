@@ -8,7 +8,6 @@ import { useRouter } from 'next/navigation';
 import Button from '@/components/ui/Button';
 import TextInput from '@/components/ui/TextInput';
 import AppLink from '@/components/ui/Link';
-import { FaSignInAlt } from 'react-icons/fa';
 import Main from '@/components/ui/layout/Main';
 import Section from '@/components/ui/layout/Section';
 

@@ -1,5 +1,4 @@
-import Icon from '@/components/ui/Icon';
-import { FaStar, FaCheckCircle, FaGift } from 'react-icons/fa';
+import { FaCheckCircle, FaGift } from 'react-icons/fa';
 import Section from '../ui/layout/Section';
 
 const LoyaltyStep = ({ children }: { children: React.ReactNode }) => (

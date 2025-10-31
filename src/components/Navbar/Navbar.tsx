@@ -1,15 +1,12 @@
 'use client';
-import { useState } from 'react';
 import DesktopNavbar from './DesktopNavbar';
 import MobileNavbar from './MobileNavbar';
-import { useUser } from '@/context/UserContext';
 import ProfileMenu from './ProfileMenu';
 import AuthButton from './AuthButton';
 import MobileMenu from './MobileMenu';
 import { useMenubarToggle } from './useMenubarToggle';
 
 const Navbar: React.FC = () => {
-	const { user } = useUser();
 	const { profileOpen, mobileOpen, setMenubar } = useMenubarToggle();
 
 	return (

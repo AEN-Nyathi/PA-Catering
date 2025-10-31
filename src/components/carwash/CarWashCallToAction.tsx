@@ -1,8 +1,6 @@
 import React from 'react';
 import AppLink from '@/components/ui/Link';
-import Button from '@/components/ui/Button';
 
-import Icon from '@/components/ui/Icon';
 import { FaCar } from 'react-icons/fa';
 import { GiPriceTag } from 'react-icons/gi';
 import Link from 'next/link';

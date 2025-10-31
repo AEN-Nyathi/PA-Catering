@@ -3,7 +3,6 @@
 import { useState, useMemo } from 'react';
 import { useCarWashBookings } from '@/hooks/useCarWashBookings';
 import {
-	deleteCarWashBooking,
 	updateCarWashBookingStatus,
 } from '@/firebase/carwash/carwashBookings';
 import Alert from '@/components/ui/Alert';
@@ -12,7 +11,7 @@ import { BookingsTable } from '@/components/Admin/Carwash/BookingsTable';
 import { BookingDetailsModal } from '@/components/Admin/Carwash/BookingDetailsModal';
 
 export default function CarWashAdmin() {
-	const { bookings, loading, error, refetch, setBookings } = useCarWashBookings();
+	const { bookings, loading, error, setBookings } = useCarWashBookings();
 	const [selectedStatus, setSelectedStatus] = useState<string>('all');
 	const [selectedBooking, setSelectedBooking] = useState<CarWashBooking | null>(null);
 	const [notification, setNotification] = useState<{
@@ -40,7 +39,7 @@ export default function CarWashAdmin() {
 		try {
 			await updateCarWashBookingStatus(bookingId, newStatus);
 			setNotification({ variant: 'success', message: 'Booking status updated successfully' });
-		} catch (error) {
+		} catch (_error) {
 			setBookings(originalBookings);
 			setNotification({ variant: 'danger', message: 'Failed to update booking status' });
 		}

@@ -1,5 +1,4 @@
-import Icon from '@/components/ui/Icon';
-import { FaCar, FaSprayCan, FaPlusCircle } from 'react-icons/fa';
+import { FaCar, FaPlusCircle } from 'react-icons/fa';
 import Section from '../ui/layout/Section';
 
 interface ServiceCardProps {

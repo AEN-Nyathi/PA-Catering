@@ -79,8 +79,6 @@ const BookingForm: React.FC = () => {
 	}
 
 	const carWashCount = user.carWashCount || 0;
-	const washesNeeded = 5 - (carWashCount % 10);
-	const isFreeWash = carWashCount > 0 && carWashCount % 5 === 0;
 
 	return (
 		<Section>

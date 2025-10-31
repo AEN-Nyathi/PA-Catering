@@ -6,8 +6,6 @@ import { signUp } from '@/firebase/auth/signUp';
 import Button from '@/components/ui/Button';
 import TextInput from '@/components/ui/TextInput';
 import AppLink from '@/components/ui/Link';
-import { FaUserPlus } from 'react-icons/fa';
-import Icon from '@/components/ui/Icon';
 import Main from '@/components/ui/layout/Main';
 import Section from '@/components/ui/layout/Section';
 

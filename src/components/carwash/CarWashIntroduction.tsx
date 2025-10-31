@@ -1,5 +1,3 @@
-import Icon from '@/components/ui/Icon';
-import { FaCar } from 'react-icons/fa';
 import Section from '../ui/layout/Section';
 
 const CarWashIntroduction: React.FC = () => {

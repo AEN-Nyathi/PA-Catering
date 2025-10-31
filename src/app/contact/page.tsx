@@ -75,7 +75,7 @@ export default function ContactPage() {
         <h1 className="text-4xl font-bold text-white mb-4">Get In Touch</h1>
         <div className="w-24 h-1 bg-red-500/95 mx-auto"></div>
         <p className="mt-6 text-lg text-gray-300 max-w-2xl mx-auto">
-          Have questions or feedback? We'd love to hear from you. Fill out the form below or reach out to us directly.
+          Have questions or feedback? We&apos;d love to hear from you. Fill out the form below or reach out to us directly.
         </p>
       </div>
       
@@ -93,4 +93,3 @@ export default function ContactPage() {
     </div>
   );
 }
-

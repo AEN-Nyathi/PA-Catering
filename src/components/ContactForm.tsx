@@ -34,7 +34,7 @@ export default function ContactForm() {
       
       setSubmitStatus({
         success: true,
-        message: 'Your message has been sent successfully! We\'ll get back to you soon.'
+        message: 'Your message has been sent successfully! We&apos;ll get back to you soon.'
       });
       reset();
     } catch (error) {
@@ -61,7 +61,7 @@ export default function ContactForm() {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-white">Get in Touch</h3>
           <p className="mb-6 text-gray-200">
-            Have questions or feedback? We'd love to hear from you. Fill out the form or reach out directly.
+            Have questions or feedback? We&apos;d love to hear from you. Fill out the form or reach out directly.
           </p>
           
           <div className="space-y-4">

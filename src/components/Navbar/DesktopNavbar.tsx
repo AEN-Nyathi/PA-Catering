@@ -2,41 +2,18 @@
 import AppLink from '@/components/ui/Link';
 import Image from 'next/image';
 import {
-	FaUserCircle,
-	FaShoppingCart,
-	FaClipboardList,
-	FaSignOutAlt,
 	FaHome,
 	FaInfoCircle,
 	FaCar,
 	FaEnvelope,
-	FaUtensils,
 	FaImages,
 } from 'react-icons/fa';
-import { logout } from '@/firebase/auth/logout';
-import React, { useState, useRef, useEffect } from 'react';
-import Button from '@/components/ui/Button';
-import { publicPaths, AuthenticationPaths, protectedPaths } from '@/context/RouteGuardContext';
+import React from 'react';
+import { publicPaths } from '@/context/RouteGuardContext';
 import { useUser } from '@/context/UserContext';
 import { FaBlog } from 'react-icons/fa6';
 
 const DesktopNavbar: React.FC = () => {
-	const { user } = useUser();
-	const [profileOpen, setProfileOpen] = useState(false);
-	const profileRef = useRef<HTMLLIElement>(null);
-
-	useEffect(() => {
-		const handleClickOutside = (event: MouseEvent) => {
-			if (profileRef.current && !profileRef.current.contains(event.target as Node)) {
-				setProfileOpen(false);
-			}
-		};
-		document.addEventListener('mousedown', handleClickOutside);
-		return () => {
-			document.removeEventListener('mousedown', handleClickOutside);
-		};
-	}, []);
-
 	return (
 		<nav className='md:flex gap-2 hidden justify-between items-center p-0 m-0 w-full'>
 			<Image

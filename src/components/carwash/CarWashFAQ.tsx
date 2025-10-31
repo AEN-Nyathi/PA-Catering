@@ -1,9 +1,7 @@
 'use client';
 import React, { useState } from 'react';
-import Button from '@/components/ui/Button';
 import { FaChevronDown, FaQuestionCircle } from 'react-icons/fa';
 
-import Icon from '@/components/ui/Icon';
 import Section from '../ui/layout/Section';
 
 const faqs = [

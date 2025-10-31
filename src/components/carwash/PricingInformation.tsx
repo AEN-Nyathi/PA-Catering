@@ -1,4 +1,3 @@
-import Icon from '@/components/ui/Icon';
 import { FaDollarSign } from 'react-icons/fa';
 import Section from '../ui/layout/Section';
 

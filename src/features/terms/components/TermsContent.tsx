@@ -17,7 +17,7 @@ const TermsContent: React.FC = () => {
 					<div className='bg-black/20 p-4 rounded-md'>
 						<h2 className='text-xl font-semibold mb-3'>1. Introduction</h2>
 						<p className='text-white'>
-							Welcome to Central Eatery. These terms and conditions outline the rules and
+							Welcome to P.A Catering. These terms and conditions outline the rules and
 							regulations for the use of our services. By accessing this website and using our
 							services, you accept these terms and conditions in full.
 						</p>
@@ -40,7 +40,7 @@ const TermsContent: React.FC = () => {
 					<div className='bg-black/20 p-4 rounded-md'>
 						<h2 className='text-xl font-semibold mb-3'>3. Limitation of Liability</h2>
 						<p className='text-white'>
-							In no event shall Central Eatery, nor any of its officers, directors, and employees,
+							In no event shall P.A Catering, nor any of its officers, directors, and employees,
 							be liable to you for anything arising out of or in any way connected with your use of
 							this website, whether such liability is under contract, tort or otherwise.
 						</p>

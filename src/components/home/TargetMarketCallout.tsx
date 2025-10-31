@@ -41,7 +41,7 @@ const TargetMarketCallout: React.FC = () => {
 			Icon={BiBullseye}
 			tittle='Our Target Market'
 			id='target-market'
-			heading='Central Eatery is dedicated to serving the diverse needs of the Lulekani community and those passing through.'>
+			heading='P.A Catering is dedicated to serving the diverse needs of the Lulekani community and those passing through.'>
 			<div className='grid grid-cols-1 md:grid-cols-2  gap-2'>
 				{targetMarkets.map((market) => (
 					<article

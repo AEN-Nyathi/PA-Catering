@@ -13,7 +13,7 @@ const posts = [
 		excerpt: 'Learn our top tips for maintaining a pristine car between professional washes...',
 	},
 	{
-		title: 'Community Day at Central Eatery',
+		title: 'Community Day at P.A Catering',
 		date: 'July 15, 2025',
 		excerpt:
 			'A look back at our recent community event, filled with good food and great company...',

@@ -10,7 +10,7 @@ const Testimonials: React.FC = () => {
 	const testimonials = [
 		{
 			id: 1,
-			text: "Central Eatery offers the best Kota's in town and their car wash service is super convenient!",
+			text: "P.A Catering offers the best Kota's in town and their car wash service is super convenient!",
 			author: 'Happy Customer A',
 		},
 		{
@@ -20,7 +20,7 @@ const Testimonials: React.FC = () => {
 		},
 		{
 			id: 3,
-			text: 'The team at Central Eatery is always friendly and the service is top-notch. Highly recommended!',
+			text: 'The team at P.A Catering is always friendly and the service is top-notch. Highly recommended!',
 			author: 'Regular Visitor C',
 		},
 	];

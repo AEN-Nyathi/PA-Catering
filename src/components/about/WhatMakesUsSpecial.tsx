@@ -12,7 +12,7 @@ const WhatMakesUsSpecial: React.FC = () => {
 						heading='Modern Facilities'
 					/>
 					<p className='text-center'>
-						Unlike competitors, Central Eatery boasts up-to-date facilities for both our eatery and
+						Unlike competitors, P.A Catering boasts up-to-date facilities for both our eatery and
 						car wash, ensuring a higher standard of service and a more comfortable experience for
 						our customers.
 					</p>

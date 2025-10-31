@@ -1,4 +1,4 @@
-# Business Plan for Central Eatery PTY Ltd
+# Business Plan for Malalang PTY Ltd
 
 “Every bite is a delight. Every wash is a luxury.”
 
@@ -31,7 +31,7 @@
 
 ## Executive Summary
 
-Central Eatery PTY Ltd, located on Ngugunyani Dr Street, Phalaborwa, Lulekani, aims to revolutionize convenience in the area by offering both affordable, high-quality meals and competitively priced luxury car washes. Our tagline, “Every bite is a delight. Every wash is a luxury,” reflects our commitment to providing a premium experience in both our food service and car care offerings.
+Malalang PTY Ltd, located on Ngugunyani Dr Street, Phalaborwa, Lulekani, aims to revolutionize convenience in the area by offering both affordable, high-quality meals and competitively priced luxury car washes. Our tagline, “Every bite is a delight. Every wash is a luxury,” reflects our commitment to providing a premium experience in both our food service and car care offerings.
 
 **Vision:** Become Lulekani’s premier destination for combined food and car care services, driven by innovation, quality, and community trust.
 
@@ -50,7 +50,7 @@ Central Eatery PTY Ltd, located on Ngugunyani Dr Street, Phalaborwa, Lulekani, a
 
 ## Company Description
 
-Central Eatery PTY Ltd is a Private Company (PTY) on Ngugunyani Dr Street, Phalaborwa, Lulekani, offering:
+Malalang PTY Ltd is a Private Company (PTY) on Ngugunyani Dr Street, Phalaborwa, Lulekani, offering:
 - Fast food meals, including our signature Kota's.
 - Premium car wash services.
 
@@ -74,7 +74,7 @@ Established in 2024 by Kanny Molapo, who identified a need for modern, affordabl
 
 ### Unique Value Proposition
 
-> Central Eatery delivers unbeatable pricing, premium service quality, and cutting-edge convenience through culinary excellence and industrial engineering.
+> P.A Catering delivers unbeatable pricing, premium service quality, and cutting-edge convenience through culinary excellence and industrial engineering.
 
 ---
 
@@ -82,7 +82,7 @@ Established in 2024 by Kanny Molapo, who identified a need for modern, affordabl
 
 ### Competitor Analysis
 
-| Service      | Competitor Price | Central Eatery Price | Savings | Central Eatery Extra Features           |
+| Service      | Competitor Price | P.A Catering Price | Savings | P.A Catering Extra Features           |
 |--------------|-----------------|---------------------|---------|-----------------------------------------|
 | Small Car Wash | R70           | R50                 | R20     | Hand-drying, Waxing, interior polish, air fresheners |
 | SUV Wash     | R80             | R70                 | R10     | Full interior/exterior detailing        |
@@ -90,7 +90,7 @@ Established in 2024 by Kanny Molapo, who identified a need for modern, affordabl
 
 #### Competitor Comparison
 
-| Feature         | Competitor A         | Competitor B         | Competitor C         | Central Eatery                       |
+| Feature         | Competitor A         | Competitor B         | Competitor C         | P.A Catering                       |
 |-----------------|---------------------|----------------------|----------------------|--------------------------------------|
 | Strengths       | Established brand, loyal customers | Wide menu variety | Strong online presence | Unique dual services, competitive pricing |
 | Weaknesses      | High prices, slow service | Inconsistent food quality | Limited seating | New brand, building awareness  |

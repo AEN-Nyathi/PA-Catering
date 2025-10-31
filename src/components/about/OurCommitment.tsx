@@ -6,7 +6,7 @@ const OurCommitment: React.FC = () => {
 	return (
 		<Section
 			Icon={IoShieldCheckmark}
-			heading='At Central Eatery PTY Ltd, we are committed to providing a premium experience in both our
+			heading='At Malalang PTY Ltd, we are committed to providing a premium experience in both our
 					food service and car care offerings. We strive to be your convenient and affordable
 					destination, delivering quality meals and luxurious car washes. Our goal is to build
 					community trust through innovation and exceptional service in Lulekani.'

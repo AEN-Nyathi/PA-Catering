@@ -63,7 +63,7 @@ const ServicesOffered: React.FC = () => {
 				</ServiceCard>
 			</ul>
 			<p className='mt-12 text-center text-lg text-white max-w-3xl mx-auto'>
-				At Central Eatery Car Wash, we are committed to providing a high-quality clean that adds a
+				At P.A Catering Car Wash, we are committed to providing a high-quality clean that adds a
 				touch of luxury to your vehicle, all at competitive prices.
 			</p>
 		</Section>

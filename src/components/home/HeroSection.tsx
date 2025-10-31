@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
 			className='flex flex-col items-center text-center'>
 			<Image
 				src='/Central_Eatery_Logo.png'
-				alt='Central Eatery Logo'
+				alt='P.A Catering Logo'
 				width={200}
 				height={200}
 				className='mb-6'

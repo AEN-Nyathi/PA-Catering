@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         url: '/images/og-image.jpg', // Replace with your actual OG image
         width: 1200,
         height: 630,
-        alt: 'Central Eatery',
+        alt: 'P.A Catering',
       },
     ],
   },

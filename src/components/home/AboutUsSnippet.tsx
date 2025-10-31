@@ -7,8 +7,8 @@ const AboutUsSnippet: React.FC = () => {
 	return (
 		<Section
 			Icon={IoInformationCircleOutline}
-			tittle='About Central Eatery'
-			heading='	Central Eatery aims to revolutionize convenience in Lulekani by offering both affordable, high-quality meals and competitively priced luxury car washes under one roof. Founded with a vision to be the premier destination for these combined services, we are driven by innovation, quality, and community trust.'>
+			tittle='About P.A Catering'
+			heading='	P.A Catering aims to revolutionize convenience in Lulekani by offering both affordable, high-quality meals and competitively priced luxury car washes under one roof. Founded with a vision to be the premier destination for these combined services, we are driven by innovation, quality, and community trust.'>
 			<div className='mt-6'>
 				<AppLink
 					variant='primary'

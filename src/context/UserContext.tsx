@@ -3,7 +3,6 @@
 import React, { createContext, useContext, ReactNode } from 'react';
 
 import Loading from '@/components/ui/Loading';
-import { RouteGuard } from './RouteGuardContext';
 import { useAuth } from '@/firebase/auth/useAuth';
 
 /**
@@ -20,15 +19,10 @@ const UserContext = createContext<UserContextType | undefined>(undefined);
 export const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 	const { user, loading } = useAuth();
 
-	// Display a loading indicator while the user data is being fetched.
-	if (loading) {
-		return <Loading message='Loading user data...' />;
-	}
-
 	// Provide the user data, loading status, and error to the rest of the application.
 	return (
 		<UserContext.Provider value={{ user, loading }}>
-			<RouteGuard>{children}</RouteGuard>
+			{children}
 		</UserContext.Provider>
 	);
 };

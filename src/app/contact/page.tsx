@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { FaMapMarkerAlt, FaClock, FaEnvelope, FaPhone } from 'react-icons/fa';
 import dynamic from 'next/dynamic';

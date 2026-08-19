@@ -20,7 +20,7 @@ const ContactInfo: React.FC = () => {
 				<article className='flex items-center gap-2 p-2'>
 					<IoMail className='text-white w-10 h-10' />
 					<p>
-						<strong>Website:</strong> paluxecreation.co.za
+						<strong>Email Address:</strong> contact@paluxecreation.co.za
 					</p>
 				</article>
 			</div>

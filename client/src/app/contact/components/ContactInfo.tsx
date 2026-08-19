@@ -3,26 +3,24 @@ import { IoLocationSharp, IoCall, IoMail } from 'react-icons/io5';
 
 const ContactInfo: React.FC = () => {
 	return (
-		<Section tittle='Contact Information' >
+		<Section tittle='Contact Information'>
 			<div className='md:flex md:flex-wrap md:gap-4'>
-
-				<article className='flex items-center  gap-2 p-4 '>
-
-					<IoLocationSharp className='text-white w-10 h-10  ' />
+				<article className='flex items-center gap-2 p-4'>
+					<IoLocationSharp className='text-white w-10 h-10' />
 					<p>
-						<strong>Address:</strong> 123 Main Street, Phalaborwa, 1390
+						<strong>Address:</strong> 45 Dublin Street, Evander, Mpumalanga, South Africa
 					</p>
 				</article>
-				<article className='flex items-center  gap-2 p-2'>
-					<IoCall className='text-white w-10 h-10  ' />
+				<article className='flex items-center gap-2 p-2'>
+					<IoCall className='text-white w-10 h-10' />
 					<p>
-						<strong>Phone Number:</strong> (+27) 15 781 1234
+						<strong>Phone Number:</strong> 082 970 5752
 					</p>
 				</article>
-				<article className='flex items-center  gap-2 p-2'>
-					<IoMail className='text-white w-10 h-10  ' />
+				<article className='flex items-center gap-2 p-2'>
+					<IoMail className='text-white w-10 h-10' />
 					<p>
-						<strong>Email Address:</strong> contact@centraleatery.co.za
+						<strong>Website:</strong> paluxecreation.co.za
 					</p>
 				</article>
 			</div>
